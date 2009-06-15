@@ -1,0 +1,23 @@
+RubyTranslate provides a simple wrapper around the Google Translate API for detecting and translating languages.
+
+Detect:
+
+  RubyTranslate.detect("Mein Luftkissenfahrzeug ist voller Aale")
+  => "de"
+
+  RubyTranslate.detect("Safisha viatu yangu mara moja!")
+  => "sw"
+
+Translate:
+
+  RubyTranslate.translate("Mein Luftkissenfahrzeug ist voller Aale", "en")
+  => "My hovercraft is full of eels"
+
+  RubyTranslate.translate("Il y a un singe qui vole dans l'arbre.", "en")
+  => "There is a flying monkey in the tree."
+
+  RubyTranslate.translate("They are singing in St Peter's Square", "it")
+  => "Essi sono il canto, in Piazza San Pietro"
+
+  RubyTranslate.translate("Eu queria um outro pedacinho de Apfelstrudel, por favor", "sv", "pt")
+  => "Jag ville ha en bit av Apfelstrudel, tack"
