@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{ruby_translate}
-  s.version = "0.1"
+  s.version = "0.1.1"
   s.date = %q{2009-06-15}
   s.authors = ["Aimee Daniells"]
   s.email = %q{aimee@edendevelopment.co.uk}

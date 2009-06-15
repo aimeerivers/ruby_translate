@@ -1,5 +1,10 @@
 RubyTranslate provides a simple wrapper around the Google Translate API for detecting and translating languages.
 
+Usage:
+
+  gem install sermoa-ruby_translate
+  require 'ruby_translate'
+
 Detect:
 
   RubyTranslate.detect("Mein Luftkissenfahrzeug ist voller Aale")
