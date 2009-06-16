@@ -27,6 +27,16 @@ Translate:
   RubyTranslate.translate("Eu queria um outro pedacinho de Apfelstrudel, por favor", "sv", "pt")
   => "Jag ville ha en bit av Apfelstrudel, tack"
   
+  languages = ["it", "fr", "de", "es", "pt", "ru", "pl"]
+  languages.each{|language| puts RubyTranslate.translate("All human beings are born free and equal in dignity and rights.", language, "en")}
+  Tutti gli esseri umani nascono liberi ed eguali in dignità e diritti.
+  Tous les êtres humains naissent libres et égaux en dignité et en droits.
+  Alle Menschen sind frei geboren und gleich an Würde und Rechten.
+  Todos los seres humanos nacen libres e iguales en dignidad y derechos.
+  Todos os seres humanos nascem livres e iguais em dignidade e em direitos.
+  Все люди рождаются свободными и равными в своем достоинстве и правах.
+  Wszyscy ludzie rodzą się wolni i równi pod względem swej godności i swych praw.
+  
 Note that the 'from' parameter is optional - if you do not provide it, RubyTranslate first uses detect to guess which language it is.
   
 Acknowledgements:
@@ -38,4 +48,5 @@ Thanks to the following excellent sources for inspiration:
 * http://github.com/sishen/rtranslate/tree/master
 * http://www.omniglot.com/language/phrases/hovercraft.htm
 * http://www.omniglot.com/language/phrases/useful.htm
+* http://www.un.org/en/documents/udhr/
 
