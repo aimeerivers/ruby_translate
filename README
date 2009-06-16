@@ -26,3 +26,16 @@ Translate:
 
   RubyTranslate.translate("Eu queria um outro pedacinho de Apfelstrudel, por favor", "sv", "pt")
   => "Jag ville ha en bit av Apfelstrudel, tack"
+  
+Note that the 'from' parameter is optional - if you do not provide it, RubyTranslate first uses detect to guess which language it is.
+  
+Acknowledgements:
+
+Thanks to the following excellent sources for inspiration:
+
+* http://ruby.geraldbauer.ca/google-translation-api.html
+* http://github.com/elisehuard/google_translate/tree/master
+* http://github.com/sishen/rtranslate/tree/master
+* http://www.omniglot.com/language/phrases/hovercraft.htm
+* http://www.omniglot.com/language/phrases/useful.htm
+
